@@ -1,0 +1,63 @@
+
+
+/* mobile device */
+
+@media (min-width: 320px) and (max-width: 500px){
+
+
+    /* header sction start */
+
+    header {
+        padding: 10px 0;
+    }
+    .carousel-indicators {
+        left: 0px;
+    }
+    .s-left {
+        margin-top: 120px;
+        text-align: center;
+    }
+
+    .s-left-img {
+        display: block;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    /* header section end */
+/* smart phone section start */
+.card{
+    margin-bottom: 40px;
+}
+/* smartphone section end */
+
+/* categories section start */
+    .bag{
+        margin: 50% 0;
+    }
+/* categories section end */
+}
+
+/* small device */
+
+@media (min-width: 500.01px) and (max-width: 768px){
+
+}
+
+/* medium device */
+
+@media (min-width: 768.01px) and (max-width: 992px){
+
+}
+
+
+/* desktop device */
+
+@media (min-width: 992.01px) and (max-width: 1200px){
+
+}
+
+/* large device */
+
+@media (min-width: 1200.01px) {
+
+}

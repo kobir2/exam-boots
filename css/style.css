@@ -1,0 +1,250 @@
+
+/* 
+Author: MD HUMAUN KOBIR;
+Mailing address: koirmdhumaun2000@gmail.com
+Website: hoynihobe.com
+*/
+
+/* 
+    ====INDEX====
+
+    1: header ;
+    2: Fusce at ; 
+    3: Facilisis ;
+    4: Ante donec;
+    5: Blandit rhoncus;
+    6: Placerat;
+    8: footer;
+                 
+*/
+
+
+
+/* global css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+h1{
+    color: #707070;
+    font-size: 46px;
+    font-weight: 700;
+
+
+}
+h2{
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+h4{
+
+}
+
+h5{
+
+}
+h6{
+
+}
+p{
+    color: #707070;
+    font-size: 18px;
+}
+
+.custom-btn{
+    background: #000;
+    color: #fff;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.btn:hover {
+  color: #00ffff;
+}
+
+.title{
+    text-align: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+/* theme css */
+
+/* header section start */
+
+
+header {
+    padding: 30px 0;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #707070;
+    font-weight: 300;
+    margin-bottom: 45px;
+  }
+  
+  
+  .s-left-img {
+    display: block;
+    margin-top: 100px;
+    margin-left: -100px;
+  }
+  
+  .menu {
+    background-color: transparent !important;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #707070 !important;
+    margin-right: 30px;
+  }
+  .nav-link:hover{
+    color: #000000 !important;
+  }
+  
+  .carousel-indicators {
+    bottom: -55px;
+    left: -535px;
+  }
+  
+  .carousel-indicators li {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #cecece;
+  }
+  
+  .carousel-indicators li.active {
+    height: 12px;
+    width: 45px;
+    border-radius: 35%;
+    background-color: #ff9c35;
+  }
+  
+  .s-left {
+    margin-top: 120px;
+  }
+  
+  .s-right {
+    margin-top: 50px;
+  }
+   
+/* header section start */
+
+/* smaratphone section start */
+
+.smartphone{
+    padding: 50px 0;
+}
+
+.title{
+    margin: 20px 0;
+}
+.title .float-right a {
+    color: #ff9d00;
+    font-size: 22px;
+    font-weight: 500;
+}
+.title .float-right a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+.title .float-left h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 4px 5px #6b6b6b;
+  transition:  all 1s;
+}
+
+.card:hover {
+  transform: translateY(10px);
+  cursor: pointer;
+}
+.card-img-top {
+    margin: 10px 0;
+}
+.card-body {
+    text-align: center;
+}
+
+p.price {
+  margin-top: 30px;
+}
+
+.card-btn-one {
+  background: #000;
+}
+
+
+/* smartphone section end */
+
+/* laptop section start */
+
+.laptop{
+    padding: 50px 0;
+}
+
+
+
+
+/* laptop section end */
+
+/* categories section start */
+
+section.categories {
+  width: 100%;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+span.role {
+  background: #FF9C35;
+  display: block;
+  height: 5px;
+  width: 135px;
+  margin: 0 auto;
+}
+
+.c-img {
+  padding: 50px 0;
+}
+
+.bag {
+  margin: 40%;
+  border: 1px solid gray;
+  padding: 20px;
+  border-bottom-left-radius: 15px;
+  box-shadow: 0 5px 5px #808080;
+}
+
+.shoe {
+  display: block;
+  border: 1px solid gray;
+  margin: 15px 0;
+  padding: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 5px 5px #808080;
+}
+
+
+
+/* section start end */
